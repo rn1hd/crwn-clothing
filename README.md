@@ -2,6 +2,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). It is served as my training to get familiar in React ecosystem from an online course conducted by one of the best instructors [Yihua Zhang](https://github.com/ZhangMYihua) and his team. Here is the link to the original repository: [https://github.com/ZhangMYihua/crwn-clothing-v2](https://github.com/ZhangMYihua/crwn-clothing-v2)
 
+The live version of the app can be accessed through [https://crwn-live-002.herokuapp.com/](https://crwn-live-002.herokuapp.com/).
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -13,8 +15,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
-
-The live version of the app can be accessed through [https://crwn-live-002.herokuapp.com/](https://crwn-live-002.herokuapp.com/).
 
 ### `npm test`
 
