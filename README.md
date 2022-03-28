@@ -1,8 +1,6 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-It is served as my training to get familiar in React ecosystem from an online course conducted by one of the best instructors [Yihua Zhang](https://github.com/ZhangMYihua) and his team. Here is the link to the original software: [https://github.com/ZhangMYihua/crwn-clothing-v2](https://github.com/ZhangMYihua/crwn-clothing-v2)
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). It is served as my training to get familiar in React ecosystem from an online course conducted by one of the best instructors [Yihua Zhang](https://github.com/ZhangMYihua) and his team. Here is the link to the original repository: [https://github.com/ZhangMYihua/crwn-clothing-v2](https://github.com/ZhangMYihua/crwn-clothing-v2)
 
 ## Available Scripts
 
