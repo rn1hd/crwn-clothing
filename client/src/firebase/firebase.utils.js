@@ -12,6 +12,8 @@ const config = {
   measurementId: "G-FCKTDFH4P7",
 };
 
+firebase.initializeApp(config);
+
 export const createUserProfileDocument = async (userAuth, additionalData) => {
   if (!userAuth) return;
 
@@ -37,7 +39,18 @@ export const createUserProfileDocument = async (userAuth, additionalData) => {
   return userRef;
 };
 
-firebase.initializeApp(config);
+export const getUserCartRef = async (userId) => {
+  const cartsRef = firestore.collection("carts").where("userId", "==", userId);
+  const snapShot = await cartsRef.get();
+
+  if (snapShot.empty) {
+    const cartDocRef = firestore.collection("carts").doc();
+    await cartDocRef.set({ userId, cartItems: [] });
+    return cartDocRef;
+  } else {
+    return snapShot.docs[0].ref;
+  }
+};
 
 export const addCollectionAndDocuments = async (
   collectionKey,
